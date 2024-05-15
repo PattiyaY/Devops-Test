@@ -12,7 +12,7 @@ pool:
 steps:
 - task: UseNode@1
   inputs:
-    version: 'lts/*'
+    version: '18.x'
 
 - script: node script.js
   displayName: 'Run a Node.js script'
